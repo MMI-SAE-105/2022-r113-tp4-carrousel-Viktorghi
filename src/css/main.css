@@ -1,0 +1,28 @@
+/* en vrac :
+100% 100% 100% 0 auto border-box box-sizing 
+display height flex flex none margin 
+max-width width width
+*/ 
+* {
+    box-sizing: border-box;
+}
+
+img {
+      max-width: 100%;
+      height: auto;
+}
+
+.carrousel_parent-ecrans {
+      display: flex;
+      width: 100%;
+
+}
+
+.carrousel_ecran {
+      width: 0;
+      flex: 100%;
+}
+
+.carrousel_ecran figure {
+      margin: none;
+}
