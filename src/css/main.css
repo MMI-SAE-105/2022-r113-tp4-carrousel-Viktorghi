@@ -22,15 +22,13 @@ img {
       flex: 0 0 100%;
       scroll-snap-align: start;
 }
-
 .carrousel_ecran figure {
       margin: none;
 }
-
 .carrousel {
     position: relative;
 }
-
+  
 .carrousel_btn {
     position: absolute;
     top: 50%; /* centre verticalement */
@@ -44,11 +42,20 @@ img {
     place-content: center;
     color: #fff;
 }
-
+  
 .carrousel_btn-avant {
     left: 0;
 }
 
 .carrousel_btn-apres {
     right: 0;
+}
+
+.caroussel_liste-liens {
+    display: flex;
+    justify-content:center;
+    margin:0;
+    padding:0;
+    list-style:none;
+    gap:1rem;
 }
